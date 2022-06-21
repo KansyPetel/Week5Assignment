@@ -1,0 +1,164 @@
+00:00:00.003791 main     VirtualBox COM Server 6.1.18 r142142 win.amd64 (Jan  7 2021 15:32:19) release log
+00:00:00.003794 main     Log opened 2021-08-20T21:41:47.913470800Z
+00:00:00.003795 main     Build Type: release
+00:00:00.003809 main     OS Product: Windows 10
+00:00:00.003810 main     OS Release: 10.0.19043
+00:00:00.003811 main     OS Service Pack: 
+00:00:00.028381 main     DMI Product Name: HP Pavilion Laptop 15-eg0xxx
+00:00:00.040148 main     DMI Product Version: Type1ProductConfigId
+00:00:00.040156 main     Firmware type: UEFI
+00:00:00.040281 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.040293 main     Host RAM: 7957MB (7.7GB) total, 2883MB (2.8GB) available
+00:00:00.040296 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.040297 main     Process ID: 14356
+00:00:00.040297 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.202115          VirtualBox: object creation starts
+00:00:00.202812          Home directory: 'C:\Users\ahmal\.VirtualBox'
+00:00:00.202980          Installed Drivers:
+00:00:00.209039            C:\windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.18.42142)
+00:00:00.209535            C:\windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.18.42142)
+00:00:00.209822            C:\windows\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.18.42142)
+00:00:00.210385            C:\windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.18.42142)
+00:00:00.230820          Loading settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.234303          usbLibGetDevices: Starting USB device enumeration
+00:00:00.260307          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.262444          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.262844          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.301484          HostDnsMonitor: initializing
+00:00:00.308609          HostDnsMonitor: updating information
+00:00:00.308683          HostDnsMonitor: old information
+00:00:00.308684            no server entries
+00:00:00.308684            no domain set
+00:00:00.308685            no search string entries
+00:00:00.308688          HostDnsMonitor: new information
+00:00:00.308688            server 1: 192.168.1.1
+00:00:00.308689            domain: home
+00:00:00.308690            no search string entries
+00:00:00.351273          VD: VDInit finished with VINF_SUCCESS
+00:00:00.356429          Loading settings file "C:\Users\ahmal\VirtualBox VMs\rhel7\rhel7.vbox" with version "1.16-windows"
+00:00:00.360222          Loading settings file "C:\Users\ahmal\VirtualBox VMs\Server2016\Server2016.vbox" with version "1.15-windows"
+00:00:00.362039          Loading settings file "C:\Users\ahmal\VirtualBox VMs\Red2\Red2.vbox" with version "1.16-windows"
+00:00:00.363633          Loading settings file "C:\Users\ahmal\VirtualBox VMs\Red3\Red3.vbox" with version "1.16-windows"
+00:00:00.364521          VirtualBox: object created
+00:00:10.671476          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:10.685381          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:16.009560          Launched VM: 61758064 pid: 20300 (0x4f4c) frontend: GUI/Qt name: Red2
+00:00:22.811360          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:23.097506          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:03:33.489379          Launched VM: 61765616 pid: 2316 (0x90c) frontend: GUI/Qt name: Server2016
+00:03:37.781098          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:03:37.990520          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:08:56.484529 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:08:56.585402 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:08:56.634506 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:09:23.755896 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:09:23.825324 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:09:23.851047 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:09:31.469274 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:09:31.526767 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 2
+00:09:31.538388 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:09:31.566650 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:09:35.265227 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:09:35.325392 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:09:35.361019 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:09:43.960524 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:09:44.010797 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:09:44.028400 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:09:47.009597 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:09:47.213937 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:09:47.252380 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:09:48.563036 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:09:48.647346 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:09:48.666071 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:29:47.812159 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:29:47.873358 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:29:47.887834 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:29:49.521046 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:29:49.558357 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:29:49.567377 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:42:35.911585          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Server2016\Server2016.vbox" with version "1.15-windows"
+00:47:05.971615 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:47:05.995272 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:47:05.997557 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:47:06.006844 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:50:43.603071 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:50:43.634440 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:50:43.635270 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:50:43.648698 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:50:53.006378 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:50:53.097479 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:50:53.113211 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:51:16.685094 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:51:16.771033 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:51:16.771359 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:51:16.780534 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:51:27.338564          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Server2016\Server2016.vbox" with version "1.15-windows"
+00:51:41.623726          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red2\Red2.vbox" with version "1.16-windows"
+00:51:42.385848          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red2\Red2.vbox" with version "1.16-windows"
+00:52:07.454138          Launched VM: 61926032 pid: 11852 (0x2e4c) frontend: GUI/Qt name: Red2
+00:52:11.644121          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:52:11.899917          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:53:05.687683 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:53:05.703800 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:53:05.703895 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:53:05.704844 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:53:55.469474 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:53:55.487924 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:53:55.488174 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:55:55.054464 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:55:55.070410 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:55:55.070520 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:55:55.070709 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:57:34.884890 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:57:34.900410 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:57:34.900558 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:57:34.900770 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+01:01:01.370670 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:01:01.388850 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+01:01:01.388970 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+01:05:32.600270          Launched VM: 61958912 pid: 8 (0x8) frontend: GUI/Qt name: Server2016
+01:05:36.685034          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+01:05:36.920721          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:06:37.812690          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Server2016\Server2016.vbox" with version "1.15-windows"
+01:06:38.940619          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Server2016\Server2016.vbox" with version "1.15-windows"
+01:06:46.603777          Launched VM: 61896464 pid: 12424 (0x3088) frontend: GUI/Qt name: Server2016
+01:06:51.180683          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+01:06:51.449764          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:07:26.161986 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:07:26.209697 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+01:07:26.212266 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+01:07:26.222948 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+01:34:17.710828          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red2\Red2.vbox" with version "1.16-windows"
+01:34:18.807322          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red2\Red2.vbox" with version "1.16-windows"
+01:35:25.771771          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Server2016\Server2016.vbox" with version "1.15-windows"
+01:44:43.872040          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:44:43.876261          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:13.704469 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:45:13.725742 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+01:45:13.726906 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+01:45:14.909321 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:45:14.925805 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+01:45:14.925897 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+01:45:14.926045 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+01:45:20.770800          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:20.773860          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:25.329157          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:25.347529          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:25.350192          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:29.859816          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:29.879179          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:29.882465          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:29.884641          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:33.215064          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:33.230182          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:33.233420          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:33.236032          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:45:39.277612 main     VirtualBox: object deletion starts
+01:45:39.277673 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ahmal\VirtualBox VMs\rhel7\rhel7.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:45:39.280845 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ahmal\VirtualBox VMs\Server2016\Server2016.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:45:39.281809 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ahmal\VirtualBox VMs\Red2\Red2.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:45:39.282331 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ahmal\VirtualBox VMs\Red3\Red3.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:45:39.285341 main     HostDnsMonitor: shutting down ...
+01:45:39.285524 main     HostDnsMonitor: shut down
+01:45:39.289175 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:45:39.290260 main     VirtualBox: object deleted

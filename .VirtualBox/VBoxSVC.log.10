@@ -1,0 +1,131 @@
+00:00:00.002353 main     VirtualBox COM Server 6.1.18 r142142 win.amd64 (Jan  7 2021 15:32:19) release log
+00:00:00.002357 main     Log opened 2021-07-16T19:07:56.670715000Z
+00:00:00.002358 main     Build Type: release
+00:00:00.002362 main     OS Product: Windows 10
+00:00:00.002364 main     OS Release: 10.0.19041
+00:00:00.002364 main     OS Service Pack: 
+00:00:00.029088 main     DMI Product Name: HP Pavilion Laptop 15-eg0xxx
+00:00:00.042271 main     DMI Product Version: Type1ProductConfigId
+00:00:00.042280 main     Firmware type: UEFI
+00:00:00.042413 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.042427 main     Host RAM: 7957MB (7.7GB) total, 3522MB (3.4GB) available
+00:00:00.042431 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.042432 main     Process ID: 1568
+00:00:00.042432 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.131703          VirtualBox: object creation starts
+00:00:00.132155          Home directory: 'C:\Users\ahmal\.VirtualBox'
+00:00:00.132299          Installed Drivers:
+00:00:00.135403            C:\windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.18.42142)
+00:00:00.136333            C:\windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.18.42142)
+00:00:00.136699            C:\windows\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.18.42142)
+00:00:00.137487            C:\windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.18.42142)
+00:00:00.141809          Loading settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.143178          usbLibGetDevices: Starting USB device enumeration
+00:00:00.191629          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.191731          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.193988          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.194027          USB: Unknown USB device detected (idVendor: 0x30c9, idProduct: 0x000e)
+00:00:00.194058          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.267839          HostDnsMonitor: initializing
+00:00:00.274644          HostDnsMonitor: updating information
+00:00:00.274674          HostDnsMonitor: old information
+00:00:00.274675            no server entries
+00:00:00.274676            no domain set
+00:00:00.274677            no search string entries
+00:00:00.274677          HostDnsMonitor: new information
+00:00:00.274678            server 1: 192.168.1.1
+00:00:00.274679            domain: home
+00:00:00.274679            no search string entries
+00:00:00.322551          VD: VDInit finished with VINF_SUCCESS
+00:00:00.323804          Loading settings file "C:\Users\ahmal\VirtualBox VMs\rhel7\rhel7.vbox" with version "1.16-windows"
+00:00:00.324412          Loading settings file "C:\Users\ahmal\VirtualBox VMs\Server2016\Server2016.vbox" with version "1.15-windows"
+00:00:00.324880          Loading settings file "C:\Users\ahmal\VirtualBox VMs\redhat\redhat.vbox" with version "1.16-windows"
+00:00:00.325421          VirtualBox: object created
+00:00:25.734393          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:25.750729          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:39.215811          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:44.029259          Saving settings file "C:\Users\ahmal\VirtualBox VMs\redhat\redhat.vbox" with version "1.16-windows"
+00:01:55.986776          Launched VM: 76464384 pid: 5716 (0x1654) frontend: GUI/Qt name: redhat
+00:02:00.397843          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:02:00.849784          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:06:48.485853          Saving settings file "C:\Users\ahmal\VirtualBox VMs\redhat\redhat.vbox" with version "1.16-windows"
+00:08:02.514566          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:44.865599 createBase Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:45.396271          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red\Red.vbox" with version "1.16-windows"
+00:18:45.403143          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red\Red.vbox" with version "1.16-windows"
+00:18:45.407057          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:45.413824          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:45.419019          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red\Red.vbox" with version "1.16-windows"
+00:19:03.225217          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:19:03.230517          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:19:03.233679          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:19:17.160037          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:19:17.162868          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:19:24.267816          Launched VM: 76466208 pid: 8460 (0x210c) frontend: GUI/Qt name: Red
+00:19:28.173213          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:19:28.606318          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:19:52.040839          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red\Red.vbox" with version "1.16-windows"
+00:41:01.740406          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red\Red.vbox" with version "1.16-windows"
+00:41:01.782369          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red\Red.vbox" with version "1.16-windows"
+00:41:02.705520          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red\Red.vbox" with version "1.16-windows"
+00:41:02.742304          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Red\Red.vbox" with version "1.16-windows"
+00:43:20.443757          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:56.302310          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'C:/Users/ahmal/VirtualBox VMs/redhat/redhat.vbox'}, preserve=false aResultDetail=0
+00:45:56.558266          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'Red'}, preserve=false aResultDetail=0
+00:45:56.683668          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'C:/Users/ahmal/VirtualBox VMs/redhat/redhat.vbox'}, preserve=false aResultDetail=0
+00:45:56.685806          Loading settings file "C:\Users\ahmal\VirtualBox VMs\redhat\redhat.vbox" with version "1.16-windows"
+00:45:56.686630          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {c7eac445-02a4-4a58-ad58-547affc20af2}}, preserve=false aResultDetail=0
+00:45:56.687464          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:46:26.072081          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:47:09.809187          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'C:/Users/ahmal/VirtualBox VMs/redhat/redhat.vbox'}, preserve=false aResultDetail=0
+00:47:10.071975          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'Red'}, preserve=false aResultDetail=0
+00:47:10.181943          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'C:/Users/ahmal/VirtualBox VMs/redhat/redhat.vbox'}, preserve=false aResultDetail=0
+00:47:10.184805          Loading settings file "C:\Users\ahmal\VirtualBox VMs\redhat\redhat.vbox" with version "1.16-windows"
+00:47:10.186138          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {c7eac445-02a4-4a58-ad58-547affc20af2}}, preserve=false aResultDetail=0
+00:47:10.187202          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:47:33.912472          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:54:44.543149 dns-monitor HostDnsMonitor: updating information
+00:54:44.543173 dns-monitor HostDnsMonitor: unchanged
+00:54:50.026873 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:54:50.084066 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:54:50.084131 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:54:50.084293 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:54:58.113760 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:54:58.171315 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:54:58.171550 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:54:58.171858 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:00:19.169936          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:00:19.179395          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:00:22.186854          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:00:30.760177          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Unknown event}, preserve=false aResultDetail=0
+01:00:30.760253          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:00:30.767958          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:00:30.775331          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:06:55.977822 createBase Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:06:56.513566          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Redhat\Redhat.vbox" with version "1.16-windows"
+01:06:56.519939          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Redhat\Redhat.vbox" with version "1.16-windows"
+01:06:56.523290          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:06:56.530214          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:06:56.534699          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Redhat\Redhat.vbox" with version "1.16-windows"
+01:07:07.759975          Launched VM: 76666736 pid: 6508 (0x196c) frontend: GUI/Qt name: Redhat
+01:07:11.853735          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+01:07:12.278396          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:07:24.011860          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Redhat\Redhat.vbox" with version "1.16-windows"
+01:18:53.255396          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Redhat\Redhat.vbox" with version "1.16-windows"
+01:18:53.304374          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Redhat\Redhat.vbox" with version "1.16-windows"
+01:18:54.394983          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Redhat\Redhat.vbox" with version "1.16-windows"
+01:18:54.427301          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Redhat\Redhat.vbox" with version "1.16-windows"
+01:19:07.056977          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:20:33.073793          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Redhat\Redhat.vbox" with version "1.16-windows"
+01:20:33.077554          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:20:33.087264          Saving settings file "C:\Users\ahmal\VirtualBox VMs\Redhat\Redhat.vbox" with version "1.16-windows"
+01:20:40.286895          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:20:40.291531          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:20:40.294457          Saving settings file "C:\Users\ahmal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:20:45.855688 main     VirtualBox: object deletion starts
+01:20:45.855790 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ahmal\VirtualBox VMs\rhel7\rhel7.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:20:45.856723 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ahmal\VirtualBox VMs\Server2016\Server2016.vdi' cannot be closed because it is still attached to 2 virtual machines}, preserve=false aResultDetail=0
+01:20:45.861168 main     HostDnsMonitor: shutting down ...
+01:20:45.861267 main     HostDnsMonitor: shut down
+01:20:45.871578 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:20:45.872510 main     VirtualBox: object deleted
